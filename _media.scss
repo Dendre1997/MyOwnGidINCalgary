@@ -1,0 +1,739 @@
+@media(max-width:750px) {
+    .header {
+        margin-bottom: 70px;
+
+        &__inner-logo {
+            background: url(../img/canada-logoMobile375px.svg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            top: 20px;
+            // height: 90px;
+            // opacity: 50%;
+            // top: -15px;
+            // display: none;
+            // height: 50px;
+        }
+        &__inner-menu {
+            flex-direction: column;
+        }
+
+        &__inner-btn {
+            display: flex;
+            width: 100px;
+        }
+
+        &__inner-title {
+            display: none;
+            // width: 250px;
+            font-size: 32px;
+            text-align: center;
+
+        }
+
+        &__inner-menu-items {
+            display: none;
+        }
+
+        // &__legalization {
+        //     padding: 0;
+        //     margin: 0;
+        // }
+    }
+    // .arrive {
+    //     display: none;
+    // }
+    .arrive {
+        display: none;
+        // margin-bottom: 1px;
+        &__inner {
+            .inner {
+                &__legalization {
+                    width: 90vw;
+                    padding-top: 1px;
+                    margin-bottom: 0;
+                    .legalization {
+                        &__get-sin {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: baseline;
+                            border-bottom: 5px solid #111;
+                            // width: 100vw;
+                            margin-bottom: 0;
+                            // background: linear-gradient(
+                            //     to right,
+                            //     #fcfbf8,
+                            //     #fcc88f
+                            // );
+                            .get {
+                                &__sin-link {
+                                    font-size: 22px;
+                                }
+                                &__sin-inner {
+                                    
+                                    // padding: 10px;
+                              }
+                            }
+                            
+                        }
+                        &__get-helseycard {
+                            display: flex;
+                            border-bottom: 5px solid #111;
+                            // background: linear-gradient(
+                            //     to right,
+                            //     #fcfbf8,
+                            //     #f3aa5c
+                            // );
+                            // color: white;
+                            // width: 500px;
+                                    // width: 100vw;
+
+                            .get {
+                                &__helseycard-title {
+                                    font-size: 42px;
+                                    margin-top: 20px;
+                                    margin-bottom: 50px;
+                                    color: #f98203;
+                                    cursor: pointer;
+                                }
+                            }
+                            // width: 100vw;
+                        }
+                        &__bank {
+                            display: flex;
+                            justify-content: start;
+                            .bank {
+                                &__title {
+                                    font-size: 42px;
+                                    margin: 15px 0 60px 0;
+                                    cursor: pointer;
+                                    color: #f98203;
+                                }
+                                &__financehelp {
+                                    font-size: 32px;
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                &__development {
+                    .development {
+                        &__airport {
+                            // height: 10vh;
+                            //   width: 90vw;
+                              padding-top: 10px;
+                              display: flex;
+                            // background: linear-gradient(
+                            //     to right,
+                            //     #fcfbf8,
+                            //     #f3aa5c
+                            // );
+                        //     .airport{
+                        //         &__find-freehost {
+                        //             display: flex;
+                        //             flex-direction: column;
+                        //             // width: 45vw;
+
+                        //             .find {
+                        //                   &__freehost-title {
+                        //                         font-size: 22px;
+                        //                   }}
+                        //     }
+                            
+                        // }
+                    }
+                }
+                
+            }
+            &__newhome {
+                display: flex;
+                // width: 90vw;
+                // overflow: visible;
+                .newhome {
+                    &__titlemain {
+                        // height: 100px;
+                        cursor: pointer;
+                        color: #f98203;
+                        // width: 90vw;
+                        font-size: 42px;
+                        // margin-bottom: 15px;
+                        margin: 20px 0 50px;
+                  }
+                  &__siteitem {
+                    // width: 500px;
+                    // height: 100px;
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    // background-color: rgb(161, 158, 158);
+                    // // border-bottom: 5px #fff;
+                    // margin-bottom: 5px;
+                    // // text-align: center;
+                    height: 60px;
+              }
+
+              &__sitelink {
+                    text-align: center;
+                    color: #fff;
+                    font-size: 22px;
+                    font-weight: 900;
+              }
+                }
+            }
+            &__work {
+                display: flex;
+                .work {
+
+                    &__resume {
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                        //   background: linear-gradient(
+                        //         to right,
+                        //         #fcfbf8,
+                        //         #f3aa5c
+                        //     );
+                          height: 70px;
+                          margin-bottom: 20px;
+                    }
+
+                    &__resume-createlink {
+                          // display: block;
+                        //   color: white;
+                          font-size: 32px;
+                        //   font-weight: 600;
+                          // max-width: 600;
+                          // height: 100px;
+                    }
+
+                    &__searching {
+                          .work {
+
+                                &__searching {
+                                      // display: flex;
+                                      // justify-content: center;
+                                      
+                                }
+
+                                &__searching-title {
+                                      font-size: 32px;
+                                      margin-bottom: 20px;
+                                }
+                                
+                                &__searching-item {
+                                      display: flex;
+                                      justify-content: center;
+                                      align-items: center;
+                                      background: linear-gradient(
+                                to right,
+                                #fcfbf8,
+                                #f3aa5c
+                            );
+                                      height: 70px;
+                                      margin-bottom: 10px;
+                                }
+                                
+                                &__searching-link {
+                                      font-size: 22px;
+                                      font-weight: 600;
+                                      color: #fff;
+                                }
+                          }
+                    }
+              }
+            }
+        }
+}
+
+
+   
+
+    // =============================
+    // mobile styles for function  
+    // Airport
+
+    // .airport__mobile {
+    //     display: none;
+    // }
+// ==============================================
+// SIn 
+
+    // .sin__mobile {
+    //     display: none;
+    //     flex-direction: column;
+    // }
+
+    // ============================
+}
+// Health card
+// .get__helseycard__inner {
+//     display: flex;
+//     flex-direction: column;
+//     background-color: rgb(123, 120, 120);
+//         color: white;
+//         width: 90vw;
+//         cursor: pointer;
+// }
+// .show__healthcard {
+//     background-color: rgb(123, 120, 120);
+//         color: white;
+//         width: 90vw;
+//         cursor: pointer;
+//         // margin-bottom: 1px;
+// }
+// ==============================================
+// bank 
+// .bank__mobile {
+//     display: none;
+//     flex-direction: column;
+// }
+// .show__bank {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 90vw;
+//     height: 60px;
+//     // font-size: 22px;
+//     cursor: pointer;
+//     background-color: rgb(123, 120, 120);
+//         color: white;
+// }
+// =====================================
+// Rent mobil
+// .show__rent {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 90vw;
+//     cursor: pointer;
+//     background-color: rgb(123, 120, 120);
+//         color: white;
+// }
+// .rent__mobile {
+//     display: none;
+//     flex-direction: column;
+// }
+// =============================
+// WORK mobil
+.show__work {
+    width: 90vw;
+    cursor: pointer;
+    // background: linear-gradient(
+    //                             to right,
+    //                             #fcfbf8,
+    //                             #f3aa5c
+    //                         );
+        color: #f3aa5c;
+        font-size: 42px;
+        margin-bottom: 10px;
+}
+// .work__mobile {
+//     display: none;
+//     flex-direction: column;
+// }
+// ================================
+// Function Hidden 
+#hiddenair {
+    height: 10vh;
+     overflow: hidden;
+     transition: all 4s;
+     border-bottom: 5px solid rgb(10, 10, 10);
+}
+.show__airmob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    // margin: auto;
+    color: #f3aa5c;
+    margin-bottom: 45px;
+    // margin-bottom: 45px;
+    // height: 15vh;
+}
+#hiddenfrehost {
+    background: linear-gradient(
+                                to right,
+                                #fcfbf8,
+                                #f3aa5c
+                            );
+    // border: 1px solid #fff;
+    height: 78px;
+    overflow: hidden;
+}
+.find__freehost-title{
+    font-size: 32px;
+    cursor: pointer;
+    // height: 50px;
+}
+#hiddensin {
+    // padding-top: 50px;
+    height: 10vh;
+     overflow: hidden;
+     transition: all 2s;
+}
+.show__sin {
+    color: #f3aa5c;
+    font-size: 42px;
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+    // background-color: transparent;
+    margin:15px 0 60px 0;
+}
+#hiddenhealth {
+    // width: 90vw;
+    height: 10vh;
+     overflow: hidden;
+     transition: all 2s;
+}
+// .get__helseycard-title {
+//     display: flex;
+//     color: white;
+//     margin-bottom: 50px;
+//     // height: 10vh;
+// }
+#hiddenbank {
+    height: 10vh;
+     overflow: hidden;
+     transition: all 2s;
+    //  background: linear-gradient(
+    //                             to right,
+    //                             #fcfbf8,
+    //                             #f3aa5c
+    //                         );
+     border-bottom: 5px solid #111;
+}
+#hiddenrent{
+height: 10vh;
+transition: all 2s;
+// background: linear-gradient(
+//     to right,
+//     #fcfbf8,
+//     #f3aa5c
+// );
+     border-bottom: 5px solid #111;
+}
+#hiddenrentsitelist {
+    font-size: 32px;
+    height: 60px;
+    overflow: hidden;
+}
+#title__sitelist {
+    color: #f3aa5c;
+    cursor: pointer;
+}
+#hiddenwork{
+    height: 10vh;
+    overflow: hidden;
+    transition: all 2s;
+    // background: linear-gradient(
+    //     to right,
+    //     #fcfbf8,
+    //     #f3aa5c
+    // );
+     border-bottom: 5px solid #111;
+}
+.show__work {
+    margin: 20px 0 50px;
+}
+.worksitelist {
+    height: 45px;
+    // margin: 20px 0 40px;
+    // overflow: hidden;
+}
+.work__searching-title {
+    color: #f3aa5c;
+    cursor: pointer;
+}
+#workCalgary_content{
+    h1{
+        font-size: 32px;
+        margin-bottom: 400px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    a{
+        font-size: 18px;
+    }
+}
+#rentCalgary_content{
+    h1{
+        font-size: 46px;
+    }
+}
+.listOfgyde_link{
+    font-size: 32px;
+}
+}
+// ===================================================================
+@media(max-width:400px) {
+    a {
+        font-size: 20px;
+    }
+    h2 {
+        // font-size: 12px;
+    }
+    // wrapper {
+    //     // width: 100vw;
+    //     // margin: 0;
+    // }
+    .arrive {
+        display: none;
+        // margin-bottom: 1px;
+        &__inner {
+            .inner {
+                &__legalization {
+                    padding-top: 1px;
+                    margin-bottom: 0;
+                    width: 90vw;
+                    .legalization {
+                        &__get-sin {
+                            .get {
+                                &__sin-link {
+                                    font-size: 22px;
+                                }
+                                &__sin-inner {
+                                    
+                                    // padding: 10px;
+                              }
+                            }
+                            
+                        }
+                        &__get-helseycard {
+                            display: flex;
+                            margin-bottom: 1px;
+                            // background: linear-gradient(
+                            //     to right,
+                            //     #fcfbf8,
+                            //     #f3aa5c
+                            // );
+                                    color: #f3aa5c;
+                                    width: 90vw;
+                                    margin: 0;
+                            .get {
+                                &__helseycard-title {
+                                    font-size: 42px;
+                                    margin-bottom: 1px;
+                                }
+                            }
+                            // width: 100vw;
+                        }
+                        &__bank {
+                            display: flex;
+                            justify-content: start;
+                            .bank {
+                                &__title {
+                                    font-size: 32px;
+                                    margin-bottom: 40px;
+                                }
+                                &__financehelp {
+                                    font-size: 32px;
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                &__development {
+                    .development {
+                        &__airport {
+                            //   width: 90vw;
+                              padding-top: 10px;
+                              display: flex;
+                            //   background: linear-gradient(
+                            //     to right,
+                            //     #fcfbf8,
+                            //     #f3aa5c
+                            // );
+                            .airport {
+                                &__title {
+                                    font-size: 32px;
+                                }
+
+                                &__getworkperm {
+                                      margin-bottom: 10px;
+
+                                      .getworkperm {
+                                            &__title {
+                                                  font-size: 32px;
+                                                  margin-bottom: 0;
+                                            }
+
+                                            &__text {
+                                                  // width: 45vw;
+                                                  font-size: 20px;
+                                                  margin-bottom: 10px;
+                                            }
+
+                                            &__link {
+                                                  font-size: 20px;
+                                                  // width: 400px;
+                                                  color: #f98203;
+                                                  background: linear-gradient(
+                                to right,
+                                #fcfbf8,
+                                #f3aa5c
+                            );
+                                            }
+                        }
+                    }
+                    &__find-freehost {
+                        .find{
+                        &__freehost-title {
+                            // font-size: 22px;
+                        }    
+                        }
+                    }
+                }
+                &__newhome {
+                    display: flex;
+                    // width: 90vw;
+                    overflow: hidden;
+                    .newhome {
+                        &__titlemain {
+                            // width: 90vw;
+                            font-size: 42px;
+                            margin-bottom: 1px;
+                      }
+                      &__siteitem {
+                        // width: 500px;
+                        // height: 100px;
+                        // display: flex;
+                        // align-items: center;
+                        // justify-content: center;
+                        // background-color: rgb(161, 158, 158);
+                        // // border-bottom: 5px #fff;
+                        // margin-bottom: 5px;
+                        // // text-align: center;
+                        height: 60px;
+                  }
+
+                  &__sitelink {
+                        text-align: center;
+                        color: #f3aa5c;
+                        font-size: 18px;
+                        font-weight: 300;
+                  }
+                    }
+                }
+                &__work {
+                    display: flex;
+                    .work {
+
+                        &__resume {
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                            //   background: linear-gradient(
+                            //     to right,
+                            //     #fcfbf8,
+                            //     #f3aa5c
+                            // );
+                              height: 70px;
+                              margin-bottom: 20px;
+                        }
+
+                        &__resume-createlink {
+                              // display: block;
+                            //   color: white;
+                              font-size: 32px;
+                            //   font-weight: 600;
+                              // max-width: 600;
+                              // height: 100px;
+                        }
+
+                        &__searching {
+                              .work {
+
+                                    &__searching {
+                                          // display: flex;
+                                          // justify-content: center;
+                                          
+                                    }
+
+                                    &__searching-title {
+                                          font-size: 32px;
+                                          margin-bottom: 20px;
+                                    }
+                                    
+                                    &__searching-item {
+                                          display: flex;
+                                          justify-content: center;
+                                          align-items: center;
+                            //               background: linear-gradient(
+                            //     to right,
+                            //     #fcfbf8,
+                            //     #f3aa5c
+                            // );
+                                          height: 70px;
+                                          margin-bottom: 10px;
+                                    }
+                                    
+                                    &__searching-link {
+                                          font-size: 22px;
+                                          font-weight: 600;
+                                          color: #f3aa5c;
+                                    }
+                              }
+                        }
+                  }
+                }
+            }
+            
+        }
+}
+}
+        }
+    }
+    .listOfgyde_contentItem{
+        h1{
+            font-size: 22px;
+
+        }
+        h2{
+            
+        }
+    }
+    #workCalgary_content{
+        h1{
+            margin-bottom: 100px;
+        }
+    }
+    #hidden-Content{
+        height: 1px;
+        overflow: hidden;
+        border-bottom: 2px solid #6a0801;
+        li{
+            font-size: 16px;
+              position: relative;
+              padding-left: 20px;
+              text-align: start;
+        margin-bottom: 15px;
+        }
+        li::before{
+              content: url(../img/icons/arrow_right_FILL0_wght400_GRAD0_opsz48.svg);
+              background-repeat: no-repeat;
+              position: absolute;
+              left: -20px;
+              top: 50%;
+              transform: translateY(-50%);
+              
+              
+        }
+        h5{
+              font-size: 32px;
+        }
+        p{
+              font-size: 16px;
+              text-align: justify;
+        }
+    // #listOfgyde_link{
+    //     font-size: 18px;
+    // }
+
+}
+#showHiddenContent{
+    font-size: 22px;
+}
+}
